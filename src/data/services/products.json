@@ -1,0 +1,31 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Passaporte",
+      "productType": "basic",
+      "serviceType": "On-line",
+      "servicePicture": "/passaport-service.svg",
+      "timeOfService": 45,
+      "price": 890.0
+    },
+    {
+      "id": 2,
+      "productName": "Passaporte + Visto",
+      "productType": "basic",
+      "serviceType": "Online + Presencial",
+      "servicePicture": "/passaport+visto-service.svg",
+      "timeOfService": 25,
+      "price": 1290
+    },
+    {
+      "id": 3,
+      "productName": "Consultoria Completa",
+      "productType": "basic",
+      "serviceType": "Presencial Completo",
+      "servicePicture": "/consultoria-completo.svg",
+      "timeOfService": 10,
+      "price": 1890
+    }
+  ]
+}

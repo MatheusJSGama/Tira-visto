@@ -1,0 +1,34 @@
+{
+  "destinations": [
+    {
+      "id": 1,
+      "destination": "Bali, Indonesia",
+      "destinationPicture": "/bali-indonesia.svg"
+    },
+    {
+      "id": 2,
+      "destination": "New York, Estados Unidos",
+      "destinationPicture": "/new-york-eua.svg"
+    },
+    {
+      "id": 3,
+      "destination": "Santorini, Grecia",
+      "destinationPicture": "/santori-greece.svg"
+    },
+    {
+      "id": 4,
+      "destination": "Paris, França",
+      "destinationPicture": "/paris-france.svg"
+    },
+    {
+      "id": 5,
+      "destination": "Cidade do Cabo, Africa do sul",
+      "destinationPicture": "/cabo-south-africa.svg"
+    },
+    {
+      "id": 6,
+      "destination": "Mumbai, India",
+      "destinationPicture": "/mumbai-india.svg"
+    }
+  ]
+}
