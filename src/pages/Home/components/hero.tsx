@@ -42,7 +42,7 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="mb-10 flex md:gap-7">
+        <div className="flex md:gap-7">
           <div className="jus flex flex-1 flex-col gap-2 border-r border-gray-200">
             <span className="xs:text-xl font-medium sm:text-3xl md:text-subtitle">
               <AnimatedCounter targetNumber={509} />
@@ -72,7 +72,7 @@ export function Hero() {
         </div>
       </div>
 
-      <div className="flex w-full flex-col justify-between rounded-3xl bg-[url(/background-card-visto.svg)] bg-cover bg-top p-4 sm:bg-center sml:min-h-[900px] md:bg-top xxxl:w-[762px] xxxl:translate-x-[55px] xxxl:translate-y-[-90px]">
+      <div className="mt-20 flex w-full flex-col justify-between rounded-3xl bg-[url(/background-card-visto.svg)] bg-cover bg-top p-4 sm:bg-center sml:min-h-[900px] md:bg-top xxxl:w-[762px] xxxl:translate-x-[55px] xxxl:translate-y-[-90px]">
         <div className="flex justify-center sm:justify-end">
           <button className="cursor-pointer place-self-end rounded-2xl bg-yellow px-5 py-3 text-xs font-semibold duration-300 hover:opacity-90 sm:text-base">
             Tirar meu visto agora!
