@@ -18,7 +18,7 @@ export function ProductsCard(props: ProductsCardProps) {
   const formId = `form-${props.productName}`;
 
   return (
-    <div className="justify-center rounded-3xl border-1 border-gray-200 p-4 sml:w-[424px]">
+    <div className="justify-center rounded-3xl border-1 border-gray-200 p-4">
       <img
         src={props.servicePicture}
         alt="Imagem do serviço prestado"

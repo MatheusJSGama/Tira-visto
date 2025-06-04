@@ -3,6 +3,7 @@
 Uma aplicação que simula um site de uma empresa de viagens, nessa aplicação foi trabalhada principalmente a parte de UI e UX garantindo uma ótima qualidade em dispositivos de qualquer tamanho além de trabalhar com algumas lógicas.
 
 ---
+
 ## 🛠️ Tecnologias Utilizadas
 
 | Tecnologia             | Descrição                                                          |

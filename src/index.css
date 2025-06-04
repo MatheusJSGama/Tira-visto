@@ -27,14 +27,14 @@
   --breakpoint-xxll: 75rem;
   --breakpoint-xxxl: 90rem;
 
-  --animate-slideIn: slideIn 0.5s ease-in forwards;
-  --animate-slideOut: slideOut 0.5s ease-in forwards;
+  --animate-slideIn: slideIn 0.7s ease-in forwards;
+  --animate-slideOut: slideOut 0.7s ease-in forwards;
 
   --animate-fadeIn: fadeIn 2s ease-in forwards;
   --animate-fadeOut: fadeOut 0.3s ease-out forwards;
 
-  --animate-slideInOVerlay: slideInOVerlay 0.8s ease-out forwards;
-  --animate-slideOutOVerlay: slideOutOVerlay 0.8s ease-out forwards;
+  --animate-slideInOVerlay: slideInOVerlay 0.93s ease-out forwards;
+  --animate-slideOutOVerlay: slideOutOVerlay 0.93s ease-out forwards;
 
   @keyframes slideIn {
     0% {
