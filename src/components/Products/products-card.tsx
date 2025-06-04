@@ -81,14 +81,14 @@ export function ProductsCard(props: ProductsCardProps) {
           <div className="flex items-end justify-between sm:items-center">
             <div className="flex flex-col gap-1">
               <span className="text-gray-600">A partir de</span>
-              <span className="text-2xl font-semibold sml:text-card-price">
+              <span className="text-2xl font-semibold sm:text-card-price">
                 {formatedPrice}
               </span>
             </div>
             <button
               type="submit"
               form={formId}
-              className="cursor-pointer self-end rounded-[40px] bg-dark-blue p-1 text-white sml:self-center sml:px-5 sml:py-4"
+              className="cursor-pointer self-end rounded-[40px] bg-dark-blue p-1 text-white sml:self-center sm:px-5 sm:py-4"
             >
               Contratar
             </button>
