@@ -1,15 +1,10 @@
-<<<<<<< HEAD
-=======
 import { useEffect, useState } from 'react';
->>>>>>> 4ce329d (Correção do bug ao trocar cards)
 import { ProductsCard } from '../../../components/Products/products-card';
 import data from '../../../data/services/products.json';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 import clsx from 'clsx';
 
 export function ServicesPackages() {
-<<<<<<< HEAD
-=======
   const [currentIndex, setCurrentIndex] = useState(0);
   const [cardsPerPage, setCardsPerPage] = useState(3);
 
@@ -38,7 +33,6 @@ export function ServicesPackages() {
       setCurrentIndex(currentIndex + cardsPerPage);
     }
   };
->>>>>>> 4ce329d (Correção do bug ao trocar cards)
 
   const handlePrev = () => {
     if (currentIndex - cardsPerPage >= 0) {
@@ -63,9 +57,6 @@ export function ServicesPackages() {
           </span>
           <div className="flex gap-5">
             <span
-<<<<<<< HEAD
-              className="cursor-pointer rounded-button border border-dark-blue bg-transparent p-[15px]"
-=======
               onClick={handlePrev}
               className={clsx('rounded-button border p-[15px]', {
                 'cursor-not-allowed border-dark-blue bg-transparent opacity-40':
@@ -73,14 +64,10 @@ export function ServicesPackages() {
                 'cursor-pointer border-dark-blue bg-dark-blue text-white':
                   currentIndex !== 0,
               })}
->>>>>>> 4ce329d (Correção do bug ao trocar cards)
             >
               <ArrowLeft />
             </span>
             <span
-<<<<<<< HEAD
-              className="cursor-pointer rounded-button border border-dark-blue bg-dark-blue p-[15px] text-white"
-=======
               onClick={handleNext}
               className={clsx('rounded-button border p-[15px]', {
                 'cursor-not-allowed border-dark-blue bg-transparent opacity-40':
@@ -88,7 +75,6 @@ export function ServicesPackages() {
                 'cursor-pointer border-dark-blue bg-dark-blue text-white':
                   currentIndex + cardsPerPage < total,
               })}
->>>>>>> 4ce329d (Correção do bug ao trocar cards)
             >
               <ArrowRight />
             </span>
@@ -96,17 +82,10 @@ export function ServicesPackages() {
         </div>
       </div>
       <div className="flex gap-4 overflow-x-auto">
-<<<<<<< HEAD
-        {data.products.map((product) => {
-          return (
-            <div className="w-[256px] flex-shrink-0 sml:w-[424px]">
-=======
         {visibleProducts.map((product) => {
           return (
-            <div className="flex-1">
->>>>>>> 4ce329d (Correção do bug ao trocar cards)
+            <div className="flex-1" key={product.id}>
               <ProductsCard
-                key={product.id}
                 id={product.id}
                 productName={product.productName}
                 productType={product.productType}
