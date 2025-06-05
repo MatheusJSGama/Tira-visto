@@ -58,7 +58,7 @@ export function ProductsCard(props: ProductsCardProps) {
       </form>
 
       <div className="mt-5 self-end">
-        <span className="font-semibold sm:text-base sml:text-card-title">
+        <span className="font-semibold text-base sm:text-card-title">
           {props.productName}
         </span>
         <div className="mt-4 flex flex-col justify-between gap-2 sml:flex-row">
