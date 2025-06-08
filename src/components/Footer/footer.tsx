@@ -32,16 +32,16 @@ export function Footer() {
           <div className="flex w-full flex-col items-center gap-5 self-end md:justify-center xxll:w-[451px] xxll:flex-col xxll:items-start">
             <span className="font-semibold">Siga em nossa redes:</span>
             <div className="flex flex-wrap justify-center gap-2 sml:w-auto sml:flex-nowrap md:gap-5">
-              <a href='' targer='_blank' className="w-2/5 rounded-button border border-black p-1.5 text-center sml:w-auto sml:px-5 sml:py-2.5">
+              <a href='' target='_blank' className="w-2/5 rounded-button border border-black p-1.5 text-center sml:w-auto sml:px-5 sml:py-2.5">
                 Instagram
               </a>
-              <a href='' targer='_blank' className="w-2/5 rounded-button border border-black p-1.5 text-center sml:w-auto sml:px-5 sml:py-2.5">
+              <a href='' target='_blank' className="w-2/5 rounded-button border border-black p-1.5 text-center sml:w-auto sml:px-5 sml:py-2.5">
                 X
               </a>
-              <a href='' targer='_blank' className="w-2/5 rounded-button border border-black p-1.5 text-center sml:w-auto sml:px-5 sml:py-2.5">
+              <a href='' target='_blank' className="w-2/5 rounded-button border border-black p-1.5 text-center sml:w-auto sml:px-5 sml:py-2.5">
                 Facebook
               </a>
-              <a href='' targer='_blank' className="w-2/5 rounded-button border border-black p-1.5 text-center sml:w-auto sml:px-5 sml:py-2.5">
+              <a href='' target='_blank' className="w-2/5 rounded-button border border-black p-1.5 text-center sml:w-auto sml:px-5 sml:py-2.5">
                 Youtube
               </a>
             </div>
